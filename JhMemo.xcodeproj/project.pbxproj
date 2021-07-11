@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		FB8CE77C269B2F2E0047E96A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB8CE77B269B2F2E0047E96A /* AppDelegate.swift */; };
 		FB8CE77E269B2F2E0047E96A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB8CE77D269B2F2E0047E96A /* SceneDelegate.swift */; };
-		FB8CE780269B2F2E0047E96A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB8CE77F269B2F2E0047E96A /* ViewController.swift */; };
 		FB8CE783269B2F2E0047E96A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB8CE781269B2F2E0047E96A /* Main.storyboard */; };
 		FB8CE786269B2F2E0047E96A /* JhMemo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FB8CE784269B2F2E0047E96A /* JhMemo.xcdatamodeld */; };
 		FB8CE788269B2F2F0047E96A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FB8CE787269B2F2F0047E96A /* Assets.xcassets */; };
@@ -20,7 +19,6 @@
 		FB8CE778269B2F2E0047E96A /* JhMemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JhMemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FB8CE77B269B2F2E0047E96A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FB8CE77D269B2F2E0047E96A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		FB8CE77F269B2F2E0047E96A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		FB8CE782269B2F2E0047E96A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FB8CE785269B2F2E0047E96A /* JhMemo.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = JhMemo.xcdatamodel; sourceTree = "<group>"; };
 		FB8CE787269B2F2F0047E96A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -60,7 +58,6 @@
 			children = (
 				FB8CE77B269B2F2E0047E96A /* AppDelegate.swift */,
 				FB8CE77D269B2F2E0047E96A /* SceneDelegate.swift */,
-				FB8CE77F269B2F2E0047E96A /* ViewController.swift */,
 				FB8CE781269B2F2E0047E96A /* Main.storyboard */,
 				FB8CE787269B2F2F0047E96A /* Assets.xcassets */,
 				FB8CE789269B2F2F0047E96A /* LaunchScreen.storyboard */,
@@ -140,7 +137,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FB8CE780269B2F2E0047E96A /* ViewController.swift in Sources */,
 				FB8CE77C269B2F2E0047E96A /* AppDelegate.swift in Sources */,
 				FB8CE77E269B2F2E0047E96A /* SceneDelegate.swift in Sources */,
 				FB8CE786269B2F2E0047E96A /* JhMemo.xcdatamodeld in Sources */,
