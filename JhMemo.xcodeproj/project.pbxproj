@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		FB1931AB269C47EF006833D0 /* MemoListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB1931AA269C47EF006833D0 /* MemoListTableViewController.swift */; };
+		FB1931AD269C918A006833D0 /* ComposeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB1931AC269C918A006833D0 /* ComposeViewController.swift */; };
 		FB2F7BFA269B44AD00FB7DE5 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB2F7BF9269B44AD00FB7DE5 /* Model.swift */; };
 		FB8CE77C269B2F2E0047E96A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB8CE77B269B2F2E0047E96A /* AppDelegate.swift */; };
 		FB8CE77E269B2F2E0047E96A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB8CE77D269B2F2E0047E96A /* SceneDelegate.swift */; };
@@ -19,6 +20,7 @@
 
 /* Begin PBXFileReference section */
 		FB1931AA269C47EF006833D0 /* MemoListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoListTableViewController.swift; sourceTree = "<group>"; };
+		FB1931AC269C918A006833D0 /* ComposeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComposeViewController.swift; sourceTree = "<group>"; };
 		FB2F7BF9269B44AD00FB7DE5 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 		FB8CE778269B2F2E0047E96A /* JhMemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JhMemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FB8CE77B269B2F2E0047E96A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -77,6 +79,7 @@
 				FB8CE78C269B2F2F0047E96A /* Info.plist */,
 				FB8CE784269B2F2E0047E96A /* JhMemo.xcdatamodeld */,
 				FB1931AA269C47EF006833D0 /* MemoListTableViewController.swift */,
+				FB1931AC269C918A006833D0 /* ComposeViewController.swift */,
 			);
 			path = JhMemo;
 			sourceTree = "<group>";
@@ -154,6 +157,7 @@
 				FB8CE77C269B2F2E0047E96A /* AppDelegate.swift in Sources */,
 				FB8CE77E269B2F2E0047E96A /* SceneDelegate.swift in Sources */,
 				FB1931AB269C47EF006833D0 /* MemoListTableViewController.swift in Sources */,
+				FB1931AD269C918A006833D0 /* ComposeViewController.swift in Sources */,
 				FB8CE786269B2F2E0047E96A /* JhMemo.xcdatamodeld in Sources */,
 				FB2F7BFA269B44AD00FB7DE5 /* Model.swift in Sources */,
 			);
