@@ -3,6 +3,7 @@
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -47,12 +48,32 @@
                         </connections>
                     </tableView>
                     <navigationItem key="navigationItem" title="JhMemo" id="02O-RH-ZWR">
-                        <barButtonItem key="rightBarButtonItem" systemItem="add" id="etH-LY-2iy"/>
+                        <barButtonItem key="rightBarButtonItem" systemItem="add" id="etH-LY-2iy">
+                            <connections>
+                                <segue destination="7gA-k5-qsj" kind="presentation" id="uE5-H1-VNf"/>
+                            </connections>
+                        </barButtonItem>
                     </navigationItem>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="48J-79-OJ6" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="173" y="-63"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="inE-Fn-Mxs">
+            <objects>
+                <viewController id="91p-OZ-PxI" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="5rn-ge-ixr">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="ewY-pS-VJP"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="Vml-F1-msX"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="1X3-YT-53j" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1813.0434782608697" y="-662.27678571428567"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="iJy-Uh-vHe">
@@ -69,6 +90,24 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="2Sg-1h-qLa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-718" y="-63"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="F8v-6q-YYc">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="7gA-k5-qsj" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="qOH-lA-dH2">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="56"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="91p-OZ-PxI" kind="relationship" relationship="rootViewController" id="kwf-kc-D9y"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="1ZT-s6-Otg" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="902.89855072463774" y="-662.27678571428567"/>
         </scene>
     </scenes>
     <resources>
