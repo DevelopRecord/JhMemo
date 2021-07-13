@@ -16,6 +16,7 @@
 		FB8CE788269B2F2F0047E96A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FB8CE787269B2F2F0047E96A /* Assets.xcassets */; };
 		FB8CE78B269B2F2F0047E96A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB8CE789269B2F2F0047E96A /* LaunchScreen.storyboard */; };
 		FBF40D12269D3E3100453418 /* ComposeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBF40D11269D3E3100453418 /* ComposeViewController.swift */; };
+		FBF40D14269D415C00453418 /* UIViewController+Alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBF40D13269D415C00453418 /* UIViewController+Alert.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		FB8CE78A269B2F2F0047E96A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FB8CE78C269B2F2F0047E96A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FBF40D11269D3E3100453418 /* ComposeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComposeViewController.swift; sourceTree = "<group>"; };
+		FBF40D13269D415C00453418 /* UIViewController+Alert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Alert.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +82,7 @@
 				FB8CE784269B2F2E0047E96A /* JhMemo.xcdatamodeld */,
 				FB1931AA269C47EF006833D0 /* MemoListTableViewController.swift */,
 				FBF40D11269D3E3100453418 /* ComposeViewController.swift */,
+				FBF40D13269D415C00453418 /* UIViewController+Alert.swift */,
 			);
 			path = JhMemo;
 			sourceTree = "<group>";
@@ -160,6 +163,7 @@
 				FBF40D12269D3E3100453418 /* ComposeViewController.swift in Sources */,
 				FB8CE786269B2F2E0047E96A /* JhMemo.xcdatamodeld in Sources */,
 				FB2F7BFA269B44AD00FB7DE5 /* Model.swift in Sources */,
+				FBF40D14269D415C00453418 /* UIViewController+Alert.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

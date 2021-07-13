@@ -8,7 +8,7 @@
 import UIKit
 
 class MemoListTableViewController: UITableViewController {
-    let formatter: DateFormatter = {
+    let formatter: DateFormatter = { // Date Formatter 클래스
         let f = DateFormatter()
         f.dateStyle = .long
         f.timeStyle = .short
@@ -16,8 +16,28 @@ class MemoListTableViewController: UITableViewController {
         return f
     }()
     
+    override func viewWillAppear(_ animated: Bool) { // Memo List 메소드
+        super.viewWillAppear(animated)
+        
+//        tableView.reloadData()
+//        print(#function) //viewWillAppear 메소드가 호출되었는지 확인하는 로그
+    }
+    
+    var token: NSObjectProtocol?
+    
+    deinit {
+        if let token = token {
+            NotificationCenter.default.removeObserver(token)
+        }
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        //옵저버를 구현하는 코드는 한번만 작성하면 되기에 보통 viewDidLoad에서 구현합니다
+        token = NotificationCenter.default.addObserver(forName: ComposeViewController.newMemoDidInsert, object: nil, queue: OperationQueue.main) { [weak self] (noti) in
+            self?.tableView.reloadData()
+        }
 
         // Uncomment the following line to preserve selection between presentations
         // self.clearsSelectionOnViewWillAppear = false
