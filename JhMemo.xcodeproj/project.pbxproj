@@ -18,6 +18,7 @@
 		FBF40D12269D3E3100453418 /* ComposeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBF40D11269D3E3100453418 /* ComposeViewController.swift */; };
 		FBF40D14269D415C00453418 /* UIViewController+Alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBF40D13269D415C00453418 /* UIViewController+Alert.swift */; };
 		FBF40D16269ECF8A00453418 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBF40D15269ECF8A00453418 /* DetailViewController.swift */; };
+		FBF40D19269F075000453418 /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBF40D18269F075000453418 /* DataManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +35,7 @@
 		FBF40D11269D3E3100453418 /* ComposeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComposeViewController.swift; sourceTree = "<group>"; };
 		FBF40D13269D415C00453418 /* UIViewController+Alert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Alert.swift"; sourceTree = "<group>"; };
 		FBF40D15269ECF8A00453418 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		FBF40D18269F075000453418 /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +76,7 @@
 		FB8CE77A269B2F2E0047E96A /* JhMemo */ = {
 			isa = PBXGroup;
 			children = (
+				FBF40D17269F073C00453418 /* Data */,
 				FB2F7BF8269B448600FB7DE5 /* Model */,
 				FB8CE77B269B2F2E0047E96A /* AppDelegate.swift */,
 				FB8CE77D269B2F2E0047E96A /* SceneDelegate.swift */,
@@ -88,6 +91,14 @@
 				FBF40D15269ECF8A00453418 /* DetailViewController.swift */,
 			);
 			path = JhMemo;
+			sourceTree = "<group>";
+		};
+		FBF40D17269F073C00453418 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				FBF40D18269F075000453418 /* DataManager.swift */,
+			);
+			path = Data;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -167,6 +178,7 @@
 				FB8CE786269B2F2E0047E96A /* JhMemo.xcdatamodeld in Sources */,
 				FB2F7BFA269B44AD00FB7DE5 /* Model.swift in Sources */,
 				FBF40D14269D415C00453418 /* UIViewController+Alert.swift in Sources */,
+				FBF40D19269F075000453418 /* DataManager.swift in Sources */,
 				FBF40D16269ECF8A00453418 /* DetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
